@@ -20,3 +20,8 @@ for(var j of a[3])
 {
     console.log(j);
 }
+
+//foreach
+Array.forEach(()=>{
+    
+})

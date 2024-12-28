@@ -31,7 +31,7 @@ arr3=[...arr1,...arr2]
 console.log(arr3);
 
 //6.Rest operator
-// function restop
+//day2 task3
 
 //7.Scope
 // var a=10
