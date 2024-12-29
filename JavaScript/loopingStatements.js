@@ -22,6 +22,28 @@ for(var j of a[3])
 }
 
 //foreach
-Array.forEach(()=>{
-    
+
+//1
+array=[10,20,30]
+array.forEach((element,index)=>{
+    console.log("Element is",element,"and Index is",index)
+})
+
+//2
+a={
+    "firstname":"Roshni",
+    "lastname":"Magesh",
+    "age":20
+}
+
+for(const key in a){
+    console.log(key,a[key])
+}
+
+for(const [key,element] of Object.entries(a)){
+    console.log(key,element)
+}
+
+Object.entries(a).forEach(([key,value])=>{
+    console.log(key,value)
 })
