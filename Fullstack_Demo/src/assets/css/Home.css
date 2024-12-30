@@ -1,0 +1,18 @@
+.boxModel{
+    color: silver;
+    font-size: 100px;
+    margin: 20px;
+    border: 5px solid goldenrod;
+    padding-left: 20px;
+    display: flex;
+}
+#idSEg{
+    text-align: center;
+}
+.clr{
+    text-align: center;
+    color: blue;
+}
+.clr:hover{
+    color: red;
+}
