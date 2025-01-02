@@ -11,6 +11,10 @@ const NavBar = () => {
           <li><Link to='/about' className='Link' target='_blank'>About</Link></li>
           <li><Link to='/contact' className='Link'>Contact</Link></li>
           <li><Link to='/gallary' className='Link'>Gallery</Link></li>
+          <li><Link to='/useEffect' className='Link'>UseEffect</Link></li>
+          <li><Link to='/useRef' className='Link'>UseRef</Link></li>
+          <li><Link to='/useContext' className='Link'>UseContext</Link></li>
+          <li><Link to='/useMemo' className='Link'>UseMemo</Link></li>
         </ul>
       </nav>
     </header>

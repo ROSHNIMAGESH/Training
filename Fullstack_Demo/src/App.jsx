@@ -2,12 +2,15 @@
 import './App.css'
 import About from './Components/FunctionalComponents/About'
 import Contact from './Components/FunctionalComponents/contact'
-import Example from './Components/FunctionalComponents/Example'
 import Footer from './Components/FunctionalComponents/Footer'
 import Gallary from './Components/FunctionalComponents/Gallary'
 import Home from './Components/FunctionalComponents/Home'
 import NavBar from './Components/FunctionalComponents/NavBar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import UseEffect from './Components/FunctionalComponents/UseEffect'
+import UseRef from './Components/FunctionalComponents/useRef'
+import UseContext from './Components/FunctionalComponents/UseContext'
+import UseMemo from './Components/FunctionalComponents/UseMemo'
 
 function App() {
   return (
@@ -19,6 +22,10 @@ function App() {
           <Route path='/about' element={<About college="KEC" />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/gallary' element={<Gallary />} />
+          <Route path='/useEffect' element={<UseEffect/>} />
+          <Route path='/useRef' element={<UseRef/>} />
+          <Route path='/useContext' element={<UseContext/>} />
+          <Route path='/useMemo' element={<UseMemo/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

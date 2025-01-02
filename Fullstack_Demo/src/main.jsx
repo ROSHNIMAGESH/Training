@@ -8,3 +8,6 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+// Rendering is the process of generating and updating the UI based on the component's code, state, and props. 
+// React optimizes this process with the Virtual DOM, ensuring efficient updates to the actual DOM.
