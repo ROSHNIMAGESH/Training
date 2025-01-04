@@ -1,0 +1,6 @@
+// Day 6
+//1. While updating a exsisting ID, the objectID do not change
+
+// Day 7
+//1. deleteOne by using ID (findbyIDandDelete)
+//2. Add value to an existing key that has not declared previously (add Password to all fields)

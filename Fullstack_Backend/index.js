@@ -1,10 +1,12 @@
 var express = require('express')
 var path = require('path')
 var mongoose = require('mongoose')
+var cors = require('cors')
 var User = require('./models/users')
 var app = express()
 const PORT = 3001
 app.use(express.json())
+app.use(cors())
 
 mongoose.connect("mongodb://127.0.0.1:27017").then(() => {
     console.log("MongoDB Connection Successful")
@@ -44,7 +46,7 @@ app.get('/static', (req, res) => {
 
 // (OR)
 
-app.post('/signup', async (req, res) => {
+app.post('/signup', (req, res) => {
     try {
         var newUser = new User(req.body)
         newUser.save()

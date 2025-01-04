@@ -12,6 +12,7 @@ import UseRef from './Components/FunctionalComponents/useRef'
 import UseContext from './Components/FunctionalComponents/UseContext'
 import UseMemo from './Components/FunctionalComponents/UseMemo'
 import Signup from './Components/FunctionalComponents/Signup'
+import Login from './Components/FunctionalComponents/Login'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/useContext' element={<UseContext/>} />
           <Route path='/useMemo' element={<UseMemo/>} />
           <Route path='/signup' element={<Signup />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>
