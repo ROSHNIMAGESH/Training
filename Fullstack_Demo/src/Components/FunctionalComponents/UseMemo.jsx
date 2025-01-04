@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 
 var slowFunction = (number) => {
-  for (let i = 0; i < 10; i++) { }
+  for (let i = 0; i < 10000000000; i++) { }
   return number * 2
 }
 
