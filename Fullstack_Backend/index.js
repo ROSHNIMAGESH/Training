@@ -9,7 +9,7 @@ const PORT = 3001
 env.config()
 app.use(express.json())
 app.use(cors({
-    origin:['https://fullstack-training-mtus.onrender.com'],
+    origin:['https://fullstack-training-mtus.onrender.com','https://fullstackdemo-ten.vercel.app'],
     methods:['GET','POST']
 }))
 
