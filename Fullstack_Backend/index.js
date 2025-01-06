@@ -8,7 +8,10 @@ var app = express()
 const PORT = 3001
 env.config()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin:['https://fullstack-training-mtus.onrender.com'],
+    methods:['GET','POST']
+}))
 
 mongoose.connect(process.env.MONGO_URL).then(() => {
     console.log("MongoDB Connection Successful")
