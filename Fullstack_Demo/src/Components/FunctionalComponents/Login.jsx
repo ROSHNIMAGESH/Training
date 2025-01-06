@@ -9,7 +9,7 @@ const Login = () => {
 
   var login = async (event) => {
     event.preventDefault()
-    var req = await axios.post("http://localhost:3001/login", {
+    var req = await axios.post("https://fullstack-training-mtus.onrender.com/login", {
       email,
       password
     })

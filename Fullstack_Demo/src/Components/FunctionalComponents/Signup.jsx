@@ -11,7 +11,7 @@ function Signup() {
 
   var signup = async (event) => {
     event.preventDefault()
-    var req = await axios.post("http://localhost:3001/signup", {
+    var req = await axios.post("https://fullstack-training-mtus.onrender.com/signup", {
       firstname: firstname,
       lastname: lastname,
       email: email,
